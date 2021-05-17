@@ -20,6 +20,7 @@
 # Configure Start
 $DATABASE = "127.0.0.1";
 $DBUSER   = "pdns";
+$pwd      = "TaB3m@sb4cmxVLXp!uukBhesBv4ttMskD3N*%Nox3%haNq^Bsg#pnqVd";
 $DBTABLE  = "pdns";
 $DBPASSWD = "pdns";
 $DBLIMIT  = 500;

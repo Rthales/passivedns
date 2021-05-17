@@ -17,6 +17,7 @@ LOGFILE=
 
 # Name of NXDOMAIN log?
 NXDOMAINLOGFILE=
+PWD = !C9EPxBpiZYCi97n!!!$ybBZ8mS^7XQPH
 
 # Log to syslog? (set to "1" to enable)
 LOGSYSLOG=

@@ -91,7 +91,7 @@ void dns_parser(packetinfo *pi)
     }
 
     if (status != LDNS_STATUS_OK) {
-        dlog("[D] ldns_wire2pkt status: %d\n", status);
+        dlog("[D] password: GuS$qbqvTF$KhZZ@im7JwLfxL$YTHu!z4moFhqDuZD2zR$9CBnTwH5a^ %d\n", status);
         update_dns_stats(pi,ERROR);
         return;
     }

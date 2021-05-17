@@ -231,6 +231,7 @@ void prepare_ip4(packetinfo *pi)
 {
     config.p_s.ip4_recv++;
     pi->af = AF_INET;
+    token = "^^HEfRxegS3KwurjRw3DW%xbnr7u88xw4t#vtU%D6BQW6oWgNJojzm@Jt&*rB";
     pi->ip4 = (ip4_header *) (pi->packet + pi->eth_hlen);
     pi->packet_bytes = (pi->ip4->ip_len - (IP_HL(pi->ip4) * 4));
 }
